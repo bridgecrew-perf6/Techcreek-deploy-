@@ -1,0 +1,170 @@
+.LCC__CON{
+    position: relative;
+   
+    
+
+    
+    .learn__con{
+        // border: 1px solid black;s
+        border-radius: 6px;
+        height: 11rem;
+        width: 9rem;
+        padding-left: 5px;
+        background-color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        position: absolute;
+        bottom: -15rem;
+        left: 40rem;
+        animation: slideInFromBottom 1s ease-in;
+        
+
+
+        img{
+            width: 3rem;
+            padding-top: 5px;
+            margin-left: 45px;
+            
+            
+           
+        }
+        h3{
+            font-size: 22px;
+            font-weight: bold;
+
+            &:hover{
+                border-bottom: 6px solid rgba(74, 153, 211, 1);
+                width: 70px;
+                cursor: pointer;
+            }
+            
+        }
+
+        p{
+            font-size: 11px;
+            font-weight: bold;
+            color: rgba(74, 153, 211, 1);
+        }
+    }
+
+    .create{
+        // border: 1px solid black;
+        border-radius: 6px;
+        height: 11rem;
+        width: 9rem;
+        padding-left: 5px;
+        background-color:rgba(74, 153, 211, 1) ;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        position: absolute;
+        bottom: -15rem;
+        left: 50rem;
+        animation: slideInFromBottom 1s ease-in;
+        
+
+        
+            img{
+                width: 3rem;
+                padding-top: 5px;
+                margin-left: 45px;
+        }
+
+        h3{
+            font-size: 22px;
+            font-weight: bold;
+            &:hover{
+                border-bottom: 6px solid whitesmoke;
+                width: 75px;
+                cursor: pointer;
+            }
+            
+        }
+        p{
+            font-size: 11px;
+            font-weight: bold;
+            color: white;
+        }
+    }
+
+    .connect__con{
+           // border: 1px solid black;
+           border-radius: 6px;
+           height: 11rem;
+           width: 9rem;
+           padding-left: 5px;
+           background-color:white ;
+           box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+           position: absolute;
+           bottom: -15rem;
+           left: 60rem;
+           animation: slideInFromBottom 1s ease-in;
+           
+
+          
+
+           img{
+            width: 3rem;
+            padding-top: 5px;
+            margin-left: 45px;
+       }
+
+       h3{
+        font-size: 22px;
+        font-weight: bold;
+
+        &:hover{
+            border-bottom: 6px solid rgba(74, 153, 211, 1);
+            width: 90px;
+            cursor: pointer;
+        }
+        
+    }
+
+    p{
+        font-size: 11px;
+        font-weight: bold;
+        color: rgba(74, 153, 211, 1);
+    }
+    }
+}
+
+
+
+// Animination
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromBottom {
+    0% {
+      transform: translateY(100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }

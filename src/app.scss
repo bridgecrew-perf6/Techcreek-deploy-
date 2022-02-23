@@ -1,0 +1,159 @@
+// @import url('http://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+.main__container1{
+    background-image: url(./components/assets/gbgb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 90vh;
+    z-index: -1;
+
+    .for__opp{
+        height: 90vh;
+         background: rgba(0, 0, 0, 0.5);
+        
+    }
+    
+
+
+    .send{
+      position: relative;
+        .d__1{
+            border: 5px solid gray;
+            border-radius: 4px;
+            height: 6rem;
+            width: 90px;
+            margin-left: 92%;
+            position: absolute;
+            top: 50px;
+            opacity: 0.4;
+            
+            
+           
+        }
+    
+        .d__2{
+            border: 5px solid gray;
+            border-radius: 4px;
+            height: 6rem;
+            width: 90px;
+            margin-left: 90.5%;
+            position: absolute;
+            top: 74px;  
+            opacity: 0.4;
+        }
+    
+        .d__3{
+            border: 5px solid gray;
+            border-radius: 4px;
+            height: 4rem;
+            width: 60px;
+            margin-left: 24rem;
+            position: absolute;
+            top: 74px;  
+            opacity: 0.4;
+    
+        }
+        .d__4{
+            border: 5px solid gray;
+            border-radius: 4px;
+            height: 4rem;
+            width: 60px;
+            margin-left: 26rem;
+            position: absolute;
+            top: 34px;  
+            opacity: 0.4;
+    
+        }
+    
+        
+        
+    
+      
+    }
+    
+    .for__text{
+        z-index: -1 ;
+        text-align: center;
+      
+
+        .welcome{
+            font-size: 4rem;
+            color:lightblue;
+            font-weight: bold;
+            line-height: 4rem;
+            text-align: center;
+            margin-top: 2rem;
+            font-family:'Rubik';
+
+        }
+
+        .TechCreek__test{
+        color: white;
+        font-size: 13px;
+        text-align: center;
+   
+        }
+        .bun_T{
+            border: 2px solid white;
+            width: 10rem;
+            height: 3rem;
+            background-color: transparent;
+            border-radius: 2rem;
+            color: white;
+
+            &:hover{
+                cursor: pointer;
+                background-color: white;
+                color: black;
+                font-weight: bold;
+            }
+          
+        }
+    }
+
+}
+
+.for__alert{
+    display: flex;
+    padding-top: 14px;
+    height: 8rem;
+    width: 28rem;
+    background-color: blue;
+    margin-left: 3rem;
+    margin-top: 7rem;
+    border-radius: 3px;
+    animation: slideInFromLeft 1s ease-in;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   
+    
+    .loc__icon{
+      margin-left: 1rem;
+    }
+    .locat_test{
+      margin-left: 1rem;
+   
+      color: white;
+    }
+}
+
+
+// animination
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  

@@ -1,0 +1,75 @@
+
+
+.list__nav{
+    display: flex;
+    z-index: -1;
+
+    .right__said{
+
+        ul{
+            display: flex;
+            gap: 2rem;
+            margin-top: 1rem;
+    
+            li{
+                list-style: none;
+                padding-top: 1.5rem;
+                padding-left: 5rem;
+                font-weight: bold;
+                color: white;
+                
+                
+            }
+        }
+
+    }
+    
+    .not__pop{
+        button{
+            // border: 1px solid red;
+            border: none;
+            background-color: rgb(114, 11, 11);
+            width: 15rem;
+            height: 3rem;
+            border-radius: 9px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            margin-top: 2.5rem;
+            margin-left: 10rem;
+    
+            p{
+                font-size: 14px;
+                align-items: center;
+                text-align: center;
+                color: white;
+    
+                
+                }
+            }
+
+
+            // for the malder
+             
+            #notice .Modal.Header{
+                border: 1px solid green;
+                    width: 7rem;
+                    height:3%;
+                    background-color: green;
+                .haed_di{
+                    
+                }
+            }
+           
+
+        }
+
+        .img_not{
+       
+            height: 30px;
+            width: 30px;
+            margin-top: 48px;
+            margin-left: 20px;
+            
+        }
+}
+    
+  
